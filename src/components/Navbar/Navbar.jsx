@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from './Navbar.module.css'
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className={`${styles.nav} container`}>
         <div className='logo'>
             <img src="/images/logo2.jpg" alt="Logo" />
         </div>
